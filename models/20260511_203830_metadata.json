@@ -1,0 +1,33 @@
+{
+  "run_id": "20260511_203830",
+  "checkpoint_path": "models/checkpoints/model_epoch20_20260511_203830.pth",
+  "trained_at": "2026-05-11T20:38:30.545428",
+  "annotations_db_timestamp": "2026-05-11T20:38:23.721312",
+  "hyperparameters": {
+    "epochs": 20,
+    "learning_rate": 0.001,
+    "batch_size": 16,
+    "patch_size": 64,
+    "seed": 42
+  },
+  "dataset": {
+    "total_labeled": 108,
+    "intersections": 27,
+    "non_intersections": 81,
+    "train_images": 1,
+    "test_images": 0
+  },
+  "performance": {
+    "val_accuracy": 0.0,
+    "val_f1": 0.0,
+    "val_precision": 0.0,
+    "val_recall": 0.0
+  },
+  "settings_snapshot": {
+    "source": "train.py",
+    "image_path": "./data/preprocessed/microfiber300umslide5_preprocessed.png",
+    "clicks": 31,
+    "match_radius": 15,
+    "negative_multiplier": 3
+  }
+}

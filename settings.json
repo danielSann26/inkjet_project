@@ -1,0 +1,17 @@
+{
+  "inner_radius": 8,
+  "outer_radius": 20,
+  "inner_threshold": 0.30,
+  "outer_threshold": 0.15,
+  "patch_size": 64,
+  "min_candidate_distance": 10,
+  "train_split_ratio": 0.80,
+  "inference_threshold": 0.50,
+  "use_clahe": false,
+  "clahe_clip_limit": 2.0,
+  "clahe_tile_size": 8,
+  "use_active_learning": true,
+  "class_balance_mode": "weighted_loss",
+  "burn_in_count": 50,
+  "num_cpu_cores": null
+}
