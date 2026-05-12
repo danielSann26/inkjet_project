@@ -7,7 +7,14 @@ trains a small CNN for binary intersection classification.
 
 ## Install
 
-Requires Python 3.10 or 3.11.
+Requires Python 3.11
+
+## Activate Virtual Environment
+
+```bash
+python -m venv .venv # create virtual environment
+.venv/Scripts/activate # use this in powershell to activate virtual environment
+```
 
 ```bash
 # CPU-only PyTorch (kept separate so installs work on machines without CUDA)
