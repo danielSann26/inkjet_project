@@ -20,16 +20,14 @@ pip install -r requirements.txt
 ## Run
 
 ```bash
-python main.py
+python main.py # for entire app
+python preprocess.py ./images/filename # use this to preprocess image which will save under data/preprocessed
+python train.py ./data/preprocessed/filename # use this to train model, click intersections that you see to reaffirm
+
 ```
 
 On first launch the app creates `data/annotations.db` and the `data/`,
 `models/`, and `logs/` subfolders if they don't already exist.
-
-## Layout
-
-See `Inkjet_Scaffold_Final_Spec.md` (Section 4) for the authoritative folder
-structure. All paths stored in the database are relative to the project root.
 
 ## Logs
 
